@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DDE447D62B4E7BCC00CBB699 /* BGitaIlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */; };
-		DDE447D82B4E7BCC00CBB699 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447D72B4E7BCC00CBB699 /* ContentView.swift */; };
+		DDE447D82B4E7BCC00CBB699 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447D72B4E7BCC00CBB699 /* RootView.swift */; };
 		DDE447DA2B4E7BCD00CBB699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */; };
 		DDE447DD2B4E7BCD00CBB699 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE447DC2B4E7BCD00CBB699 /* Preview Assets.xcassets */; };
 		DDE447DF2B4E7BCD00CBB699 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447DE2B4E7BCD00CBB699 /* Persistence.swift */; };
@@ -16,6 +16,24 @@
 		DDE447EC2B4E7BCD00CBB699 /* BGitaIlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447EB2B4E7BCD00CBB699 /* BGitaIlTests.swift */; };
 		DDE447F62B4E7BCD00CBB699 /* BGitaIlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447F52B4E7BCD00CBB699 /* BGitaIlUITests.swift */; };
 		DDE447F82B4E7BCD00CBB699 /* BGitaIlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447F72B4E7BCD00CBB699 /* BGitaIlUITestsLaunchTests.swift */; };
+		DDE448172B4E814F00CBB699 /* BGUtility in Frameworks */ = {isa = PBXBuildFile; productRef = DDE448162B4E814F00CBB699 /* BGUtility */; };
+		DDE448292B4E8A2F00CBB699 /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = DDE448282B4E8A2F00CBB699 /* SwiftyBeaver */; };
+		DDE4482B2B4E8ADF00CBB699 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4482A2B4E8ADF00CBB699 /* Logger.swift */; };
+		DDE4482E2B4E933B00CBB699 /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4482D2B4E933B00CBB699 /* RootViewModel.swift */; };
+		DDE448322B4E988600CBB699 /* CommonInjections.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE448312B4E988600CBB699 /* CommonInjections.swift */; };
+		DDE4483B2B4E9A0A00CBB699 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = DDE4483A2B4E9A0A00CBB699 /* Swinject */; };
+		DDE4483D2B4E9A0A00CBB699 /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = DDE4483C2B4E9A0A00CBB699 /* Swinject-Dynamic */; };
+		DDE448402B4E9E2D00CBB699 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DDE4483F2B4E9E2D00CBB699 /* Localizable.xcstrings */; };
+		DDE448562B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */; };
+		DDE448582B4EAABB00CBB699 /* BGitaIl-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */; };
+		DDE4485A2B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */; };
+		DDE4485D2B4EACE900CBB699 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4485C2B4EACE900CBB699 /* ConfigurationManager.swift */; };
+		DDE448602B4EB2DA00CBB699 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DDE4485F2B4EB2DA00CBB699 /* FirebaseAnalytics */; };
+		DDE448622B4EB2DA00CBB699 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DDE448612B4EB2DA00CBB699 /* FirebaseCrashlytics */; };
+		DDE4487E2B4EB50200CBB699 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4487D2B4EB50200CBB699 /* AppDelegate.swift */; };
+		DDE4489A2B4ECDDB00CBB699 /* FirebaseAnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE448992B4ECDDB00CBB699 /* FirebaseAnalyticsManager.swift */; };
+		DDE4489C2B4ECF9300CBB699 /* AnalyticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4489B2B4ECF9300CBB699 /* AnalyticsManager.swift */; };
+		DDE4489F2B4EDED000CBB699 /* AnalyticsEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4489E2B4EDED000CBB699 /* AnalyticsEvents.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +56,7 @@
 /* Begin PBXFileReference section */
 		DDE447D22B4E7BCC00CBB699 /* BGitaIl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGitaIl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGitaIlApp.swift; sourceTree = "<group>"; };
-		DDE447D72B4E7BCC00CBB699 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDE447D72B4E7BCC00CBB699 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDE447DC2B4E7BCD00CBB699 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DDE447DE2B4E7BCD00CBB699 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +66,22 @@
 		DDE447F12B4E7BCD00CBB699 /* BGitaIlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BGitaIlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE447F52B4E7BCD00CBB699 /* BGitaIlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGitaIlUITests.swift; sourceTree = "<group>"; };
 		DDE447F72B4E7BCD00CBB699 /* BGitaIlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGitaIlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DDE4482A2B4E8ADF00CBB699 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		DDE4482D2B4E933B00CBB699 /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		DDE448312B4E988600CBB699 /* CommonInjections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonInjections.swift; sourceTree = "<group>"; };
+		DDE4483F2B4E9E2D00CBB699 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BGitaIl-Dev.xcconfig"; sourceTree = "<group>"; };
+		DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BGitaIl-QA.xcconfig"; sourceTree = "<group>"; };
+		DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BGitaIl-Prod.xcconfig"; sourceTree = "<group>"; };
+		DDE4485B2B4EAC9000CBB699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DDE4485C2B4EACE900CBB699 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
+		DDE4487D2B4EB50200CBB699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDE448962B4EC83100CBB699 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDE448972B4EC85500CBB699 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDE448982B4EC88000CBB699 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DDE448992B4ECDDB00CBB699 /* FirebaseAnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAnalyticsManager.swift; sourceTree = "<group>"; };
+		DDE4489B2B4ECF9300CBB699 /* AnalyticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsManager.swift; sourceTree = "<group>"; };
+		DDE4489E2B4EDED000CBB699 /* AnalyticsEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsEvents.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +89,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE448172B4E814F00CBB699 /* BGUtility in Frameworks */,
+				DDE4483D2B4E9A0A00CBB699 /* Swinject-Dynamic in Frameworks */,
+				DDE448292B4E8A2F00CBB699 /* SwiftyBeaver in Frameworks */,
+				DDE448622B4EB2DA00CBB699 /* FirebaseCrashlytics in Frameworks */,
+				DDE448602B4EB2DA00CBB699 /* FirebaseAnalytics in Frameworks */,
+				DDE4483B2B4E9A0A00CBB699 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +138,17 @@
 		DDE447D42B4E7BCC00CBB699 /* BGitaIl */ = {
 			isa = PBXGroup;
 			children = (
-				DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */,
-				DDE447D72B4E7BCC00CBB699 /* ContentView.swift */,
-				DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */,
-				DDE447DE2B4E7BCD00CBB699 /* Persistence.swift */,
-				DDE447E02B4E7BCD00CBB699 /* BGitaIl.xcdatamodeld */,
+				DDE4485B2B4EAC9000CBB699 /* Info.plist */,
 				DDE447DB2B4E7BCD00CBB699 /* Preview Content */,
+				DDE448A12B4EE16600CBB699 /* Resources */,
+				DDE448A02B4EE14000CBB699 /* Screens */,
+				DDE448922B4EC7E400CBB699 /* FBConfigs */,
+				DDE448522B4EAA1B00CBB699 /* Configuration */,
+				DDE4483E2B4E9E0B00CBB699 /* Content */,
+				DDE448302B4E987100CBB699 /* Injections */,
+				DDE448232B4E88A100CBB699 /* Helpers */,
+				DDE447E02B4E7BCD00CBB699 /* BGitaIl.xcdatamodeld */,
+				DDE4487D2B4EB50200CBB699 /* AppDelegate.swift */,
 			);
 			path = BGitaIl;
 			sourceTree = "<group>";
@@ -133,6 +178,137 @@
 			path = BGitaIlUITests;
 			sourceTree = "<group>";
 		};
+		DDE4481A2B4E877300CBB699 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DDE4481B2B4E877B00CBB699 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4482C2B4E930C00CBB699 /* Root */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DDE4481C2B4E878100CBB699 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DDE448232B4E88A100CBB699 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4489D2B4EDEA300CBB699 /* Analytics */,
+				DDE4482A2B4E8ADF00CBB699 /* Logger.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DDE4482C2B4E930C00CBB699 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4482D2B4E933B00CBB699 /* RootViewModel.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DDE448302B4E987100CBB699 /* Injections */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448312B4E988600CBB699 /* CommonInjections.swift */,
+			);
+			path = Injections;
+			sourceTree = "<group>";
+		};
+		DDE4483E2B4E9E0B00CBB699 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4483F2B4E9E2D00CBB699 /* Localizable.xcstrings */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		DDE448522B4EAA1B00CBB699 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */,
+				DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */,
+				DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */,
+				DDE4485C2B4EACE900CBB699 /* ConfigurationManager.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		DDE448922B4EC7E400CBB699 /* FBConfigs */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448952B4EC7F800CBB699 /* Prod */,
+				DDE448942B4EC7F300CBB699 /* Qa */,
+				DDE448932B4EC7EF00CBB699 /* Dev */,
+			);
+			path = FBConfigs;
+			sourceTree = "<group>";
+		};
+		DDE448932B4EC7EF00CBB699 /* Dev */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448962B4EC83100CBB699 /* GoogleService-Info.plist */,
+			);
+			path = Dev;
+			sourceTree = "<group>";
+		};
+		DDE448942B4EC7F300CBB699 /* Qa */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448972B4EC85500CBB699 /* GoogleService-Info.plist */,
+			);
+			path = Qa;
+			sourceTree = "<group>";
+		};
+		DDE448952B4EC7F800CBB699 /* Prod */ = {
+			isa = PBXGroup;
+			children = (
+				DDE448982B4EC88000CBB699 /* GoogleService-Info.plist */,
+			);
+			path = Prod;
+			sourceTree = "<group>";
+		};
+		DDE4489D2B4EDEA300CBB699 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4489B2B4ECF9300CBB699 /* AnalyticsManager.swift */,
+				DDE448992B4ECDDB00CBB699 /* FirebaseAnalyticsManager.swift */,
+				DDE4489E2B4EDED000CBB699 /* AnalyticsEvents.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		DDE448A02B4EE14000CBB699 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				DDE4481C2B4E878100CBB699 /* Views */,
+				DDE4481B2B4E877B00CBB699 /* ViewModels */,
+				DDE4481A2B4E877300CBB699 /* Models */,
+				DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */,
+				DDE447D72B4E7BCC00CBB699 /* RootView.swift */,
+				DDE447DE2B4E7BCD00CBB699 /* Persistence.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		DDE448A12B4EE16600CBB699 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,15 +316,26 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDE447FB2B4E7BCD00CBB699 /* Build configuration list for PBXNativeTarget "BGitaIl" */;
 			buildPhases = (
+				DDE448802B4EB6A500CBB699 /* Firebase */,
+				DDE448192B4E846D00CBB699 /* SwiftLint */,
 				DDE447CE2B4E7BCC00CBB699 /* Sources */,
 				DDE447CF2B4E7BCC00CBB699 /* Frameworks */,
 				DDE447D02B4E7BCC00CBB699 /* Resources */,
+				DDE448412B4EA1D500CBB699 /* SwiftFormat */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = BGitaIl;
+			packageProductDependencies = (
+				DDE448162B4E814F00CBB699 /* BGUtility */,
+				DDE448282B4E8A2F00CBB699 /* SwiftyBeaver */,
+				DDE4483A2B4E9A0A00CBB699 /* Swinject */,
+				DDE4483C2B4E9A0A00CBB699 /* Swinject-Dynamic */,
+				DDE4485F2B4EB2DA00CBB699 /* FirebaseAnalytics */,
+				DDE448612B4EB2DA00CBB699 /* FirebaseCrashlytics */,
+			);
 			productName = BGitaIl;
 			productReference = DDE447D22B4E7BCC00CBB699 /* BGitaIl.app */;
 			productType = "com.apple.product-type.application";
@@ -219,8 +406,15 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
 			);
 			mainGroup = DDE447C92B4E7BCC00CBB699;
+			packageReferences = (
+				DDE448152B4E814F00CBB699 /* XCRemoteSwiftPackageReference "BGUtility" */,
+				DDE448272B4E8A2F00CBB699 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
+				DDE448392B4E9A0A00CBB699 /* XCRemoteSwiftPackageReference "Swinject" */,
+				DDE4485E2B4EB2DA00CBB699 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = DDE447D32B4E7BCC00CBB699 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,8 +431,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE4485A2B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig in Resources */,
 				DDE447DD2B4E7BCD00CBB699 /* Preview Assets.xcassets in Resources */,
 				DDE447DA2B4E7BCD00CBB699 /* Assets.xcassets in Resources */,
+				DDE448582B4EAABB00CBB699 /* BGitaIl-QA.xcconfig in Resources */,
+				DDE448402B4E9E2D00CBB699 /* Localizable.xcstrings in Resources */,
+				DDE448562B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,15 +456,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DDE448192B4E846D00CBB699 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		DDE448412B4EA1D500CBB699 /* SwiftFormat */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftFormat;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftformat > /dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		DDE448802B4EB6A500CBB699 /* Firebase */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Firebase;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\n# Get references to dev, prod, and QA versions of the GoogleService-Info.plist\nGOOGLESERVICE_INFO_DEV=\"${PROJECT_DIR}/${TARGET_NAME}/FBConfigs/Dev/${GOOGLESERVICE_INFO_PLIST}\"\nGOOGLESERVICE_INFO_PROD=\"${PROJECT_DIR}/${TARGET_NAME}/FBConfigs/Prod/${GOOGLESERVICE_INFO_PLIST}\"\nGOOGLESERVICE_INFO_QA=\"${PROJECT_DIR}/${TARGET_NAME}/FBConfigs/Qa/${GOOGLESERVICE_INFO_PLIST}\"\n\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEV}\"\nif [ ! -f \"$GOOGLESERVICE_INFO_DEV\" ]\nthen\n    echo \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_PROD}\"\nif [ ! -f \"$GOOGLESERVICE_INFO_PROD\" ]\nthen\n    echo \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Make sure the QA version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_QA}\"\nif [ ! -f \"$GOOGLESERVICE_INFO_QA\" ]\nthen\n    echo \"No QA GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\n    exit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to the final destination: ${PLIST_DESTINATION}\"\n\n# Copy over the prod, QA, or dev GoogleService-Info.plist based on the build configuration\nif [ \"${CONFIGURATION}\" == \"Debug-Prod\" ]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_PROD}\"\n    cp \"$GOOGLESERVICE_INFO_PROD\" \"$PLIST_DESTINATION\"\nelif [ \"${CONFIGURATION}\" == \"Debug-QA\" ]\nthen\n    echo \"Using ${GOOGLESERVICE_INFO_QA}\"\n    cp \"$GOOGLESERVICE_INFO_QA\" \"$PLIST_DESTINATION\"\nelse\n    echo \"Using ${GOOGLESERVICE_INFO_DEV}\"\n    cp \"$GOOGLESERVICE_INFO_DEV\" \"$PLIST_DESTINATION\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDE447CE2B4E7BCC00CBB699 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDE4485D2B4EACE900CBB699 /* ConfigurationManager.swift in Sources */,
+				DDE448322B4E988600CBB699 /* CommonInjections.swift in Sources */,
+				DDE4482B2B4E8ADF00CBB699 /* Logger.swift in Sources */,
+				DDE4487E2B4EB50200CBB699 /* AppDelegate.swift in Sources */,
 				DDE447E22B4E7BCD00CBB699 /* BGitaIl.xcdatamodeld in Sources */,
+				DDE4489F2B4EDED000CBB699 /* AnalyticsEvents.swift in Sources */,
 				DDE447DF2B4E7BCD00CBB699 /* Persistence.swift in Sources */,
-				DDE447D82B4E7BCC00CBB699 /* ContentView.swift in Sources */,
+				DDE447D82B4E7BCC00CBB699 /* RootView.swift in Sources */,
+				DDE4482E2B4E933B00CBB699 /* RootViewModel.swift in Sources */,
+				DDE4489C2B4ECF9300CBB699 /* AnalyticsManager.swift in Sources */,
 				DDE447D62B4E7BCC00CBB699 /* BGitaIlApp.swift in Sources */,
+				DDE4489A2B4ECDDB00CBB699 /* FirebaseAnalyticsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,7 +566,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		DDE447F92B4E7BCD00CBB699 /* Debug */ = {
+		DDE447F92B4E7BCD00CBB699 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +618,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -364,9 +627,9 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = "Debug-Dev";
 		};
-		DDE447FA2B4E7BCD00CBB699 /* Release */ = {
+		DDE447FA2B4E7BCD00CBB699 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,7 +675,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -420,10 +683,11 @@
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = "Release-Dev";
 		};
-		DDE447FC2B4E7BCD00CBB699 /* Debug */ = {
+		DDE447FC2B4E7BCD00CBB699 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -432,27 +696,33 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BGitaIl/Preview Content\"";
 				DEVELOPMENT_TEAM = 8YD26RK344;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BGitaIl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tail App-Dev";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIl.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG DEV";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = "Debug-Dev";
 		};
-		DDE447FD2B4E7BCD00CBB699 /* Release */ = {
+		DDE447FD2B4E7BCD00CBB699 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,26 +731,31 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BGitaIl/Preview Content\"";
 				DEVELOPMENT_TEAM = 8YD26RK344;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BGitaIl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tail App-Dev";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIl;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIl.dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEV;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = "Release-Dev";
 		};
-		DDE447FF2B4E7BCD00CBB699 /* Debug */ = {
+		DDE447FF2B4E7BCD00CBB699 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -498,9 +773,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGitaIl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BGitaIl";
 			};
-			name = Debug;
+			name = "Debug-Dev";
 		};
-		DDE448002B4E7BCD00CBB699 /* Release */ = {
+		DDE448002B4E7BCD00CBB699 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -518,9 +793,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGitaIl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BGitaIl";
 			};
-			name = Release;
+			name = "Release-Dev";
 		};
-		DDE448022B4E7BCD00CBB699 /* Debug */ = {
+		DDE448022B4E7BCD00CBB699 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -536,9 +811,9 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BGitaIl;
 			};
-			name = Debug;
+			name = "Debug-Dev";
 		};
-		DDE448032B4E7BCD00CBB699 /* Release */ = {
+		DDE448032B4E7BCD00CBB699 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -554,7 +829,537 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = BGitaIl;
 			};
-			name = Release;
+			name = "Release-Dev";
+		};
+		DDE448422B4EA5C100CBB699 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-QA";
+		};
+		DDE448432B4EA5C100CBB699 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BGitaIl/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BGitaIl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tail App-Qa";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIl.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG QA";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-QA";
+		};
+		DDE448442B4EA5C100CBB699 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGitaIl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BGitaIl";
+			};
+			name = "Debug-QA";
+		};
+		DDE448452B4EA5C100CBB699 /* Debug-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BGitaIl;
+			};
+			name = "Debug-QA";
+		};
+		DDE448462B4EA5D800CBB699 /* Debug-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = "Debug-Prod";
+		};
+		DDE448472B4EA5D800CBB699 /* Debug-Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BGitaIl/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BGitaIl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tail App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIl.prod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG PROD";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Debug-Prod";
+		};
+		DDE448482B4EA5D800CBB699 /* Debug-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGitaIl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BGitaIl";
+			};
+			name = "Debug-Prod";
+		};
+		DDE448492B4EA5D800CBB699 /* Debug-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BGitaIl;
+			};
+			name = "Debug-Prod";
+		};
+		DDE4484A2B4EA5FC00CBB699 /* Release-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-Prod";
+		};
+		DDE4484B2B4EA5FC00CBB699 /* Release-Prod */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BGitaIl/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BGitaIl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tail App";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIl.prod;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = PROD;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-Prod";
+		};
+		DDE4484C2B4EA5FC00CBB699 /* Release-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGitaIl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BGitaIl";
+			};
+			name = "Release-Prod";
+		};
+		DDE4484D2B4EA5FC00CBB699 /* Release-Prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BGitaIl;
+			};
+			name = "Release-Prod";
+		};
+		DDE4484E2B4EA60400CBB699 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Release-QA";
+		};
+		DDE4484F2B4EA60400CBB699 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BGitaIl/Preview Content\"";
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BGitaIl/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Tail App-Qa";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIl.qa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = QA;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Release-QA";
+		};
+		DDE448502B4EA60400CBB699 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BGitaIl.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BGitaIl";
+			};
+			name = "Release-QA";
+		};
+		DDE448512B4EA60400CBB699 /* Release-QA */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8YD26RK344;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.BGitaIlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BGitaIl;
+			};
+			name = "Release-QA";
 		};
 /* End XCBuildConfiguration section */
 
@@ -562,40 +1367,124 @@
 		DDE447CD2B4E7BCC00CBB699 /* Build configuration list for PBXProject "BGitaIl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDE447F92B4E7BCD00CBB699 /* Debug */,
-				DDE447FA2B4E7BCD00CBB699 /* Release */,
+				DDE447F92B4E7BCD00CBB699 /* Debug-Dev */,
+				DDE448462B4EA5D800CBB699 /* Debug-Prod */,
+				DDE448422B4EA5C100CBB699 /* Debug-QA */,
+				DDE447FA2B4E7BCD00CBB699 /* Release-Dev */,
+				DDE4484A2B4EA5FC00CBB699 /* Release-Prod */,
+				DDE4484E2B4EA60400CBB699 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-Dev";
 		};
 		DDE447FB2B4E7BCD00CBB699 /* Build configuration list for PBXNativeTarget "BGitaIl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDE447FC2B4E7BCD00CBB699 /* Debug */,
-				DDE447FD2B4E7BCD00CBB699 /* Release */,
+				DDE447FC2B4E7BCD00CBB699 /* Debug-Dev */,
+				DDE448472B4EA5D800CBB699 /* Debug-Prod */,
+				DDE448432B4EA5C100CBB699 /* Debug-QA */,
+				DDE447FD2B4E7BCD00CBB699 /* Release-Dev */,
+				DDE4484B2B4EA5FC00CBB699 /* Release-Prod */,
+				DDE4484F2B4EA60400CBB699 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-Dev";
 		};
 		DDE447FE2B4E7BCD00CBB699 /* Build configuration list for PBXNativeTarget "BGitaIlTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDE447FF2B4E7BCD00CBB699 /* Debug */,
-				DDE448002B4E7BCD00CBB699 /* Release */,
+				DDE447FF2B4E7BCD00CBB699 /* Debug-Dev */,
+				DDE448482B4EA5D800CBB699 /* Debug-Prod */,
+				DDE448442B4EA5C100CBB699 /* Debug-QA */,
+				DDE448002B4E7BCD00CBB699 /* Release-Dev */,
+				DDE4484C2B4EA5FC00CBB699 /* Release-Prod */,
+				DDE448502B4EA60400CBB699 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-Dev";
 		};
 		DDE448012B4E7BCD00CBB699 /* Build configuration list for PBXNativeTarget "BGitaIlUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDE448022B4E7BCD00CBB699 /* Debug */,
-				DDE448032B4E7BCD00CBB699 /* Release */,
+				DDE448022B4E7BCD00CBB699 /* Debug-Dev */,
+				DDE448492B4EA5D800CBB699 /* Debug-Prod */,
+				DDE448452B4EA5C100CBB699 /* Debug-QA */,
+				DDE448032B4E7BCD00CBB699 /* Release-Dev */,
+				DDE4484D2B4EA5FC00CBB699 /* Release-Prod */,
+				DDE448512B4EA60400CBB699 /* Release-QA */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = "Release-Dev";
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DDE448152B4E814F00CBB699 /* XCRemoteSwiftPackageReference "BGUtility" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/antila3567/BGUtility";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		DDE448272B4E8A2F00CBB699 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyBeaver/SwiftyBeaver";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		DDE448392B4E9A0A00CBB699 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+		DDE4485E2B4EB2DA00CBB699 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DDE448162B4E814F00CBB699 /* BGUtility */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE448152B4E814F00CBB699 /* XCRemoteSwiftPackageReference "BGUtility" */;
+			productName = BGUtility;
+		};
+		DDE448282B4E8A2F00CBB699 /* SwiftyBeaver */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE448272B4E8A2F00CBB699 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */;
+			productName = SwiftyBeaver;
+		};
+		DDE4483A2B4E9A0A00CBB699 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE448392B4E9A0A00CBB699 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		DDE4483C2B4E9A0A00CBB699 /* Swinject-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE448392B4E9A0A00CBB699 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = "Swinject-Dynamic";
+		};
+		DDE4485F2B4EB2DA00CBB699 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE4485E2B4EB2DA00CBB699 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		DDE448612B4EB2DA00CBB699 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DDE4485E2B4EB2DA00CBB699 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DDE447E02B4E7BCD00CBB699 /* BGitaIl.xcdatamodeld */ = {
