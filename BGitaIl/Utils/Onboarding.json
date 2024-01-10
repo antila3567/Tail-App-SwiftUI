@@ -1,0 +1,23 @@
+
+[
+    {
+        "image": "onboard-image-1",
+        "title": "onboard-title-1",
+        "detail": "onboard-detail-1"
+    },
+    {
+        "image": "onboard-image-2",
+        "title": "onboard-title-2",
+        "detail": "onboard-detail-2"
+    },
+    {
+        "image": "onboard-image-3",
+        "title": "onboard-title-3",
+        "detail": "onboard-detail-3"
+    },
+    {
+        "image": "onboard-image-4",
+        "title": "onboard-title-4",
+        "detail": "onboard-detail-4"
+    },
+]

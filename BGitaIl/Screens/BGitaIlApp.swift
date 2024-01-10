@@ -10,11 +10,23 @@ import SwiftUI
 @main
 struct BGitaIlApp: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    @AppStorage("isFirstTime") var isFirstTime: Bool = true
+
+    @StateObject var languageManager = LanguageManager()
+
     let persistenceController = PersistenceController.shared
 
     var body: some Scene {
         WindowGroup {
-            RootView()
+            if isFirstTime {
+                OnboardingView()
+                    .environmentObject(languageManager)
+                    .environment(\.locale, languageManager.locale)
+            } else {
+                BGTabView()
+                    .environmentObject(languageManager)
+                    .environment(\.locale, languageManager.locale)
+            }
         }
     }
 }
