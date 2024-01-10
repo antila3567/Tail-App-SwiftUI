@@ -11,8 +11,6 @@ struct RadioButtonView: View {
     var currentLanguage: SupportedLanguage
     var text: String
 
-    @AppStorage("isFirstTime") var isFirstTime: Bool = true
-
     @Binding var selectedLanguage: SupportedLanguage
 
     @EnvironmentObject var languageManager: LanguageManager
@@ -21,7 +19,6 @@ struct RadioButtonView: View {
         Button {
             languageManager.setLocale(language: currentLanguage)
             selectedLanguage = currentLanguage
-            isFirstTime = false
         } label: {
             HStack(spacing: 20) {
                 Image(systemName: selectedLanguage == currentLanguage ? "largecircle.fill.circle" : "circle")

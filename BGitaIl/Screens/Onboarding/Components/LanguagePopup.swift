@@ -15,6 +15,8 @@ enum SupportedLanguage: String {
 struct LanguagePopup: View {
     @Binding var showPopup: Bool
 
+    @AppStorage("isFirstTime") var isFirstTime: Bool = true
+
     @State private var selectedLanguage = SupportedLanguage.english
 
     @EnvironmentObject var languageManager: LanguageManager
@@ -53,6 +55,7 @@ struct LanguagePopup: View {
 
             Button {
                 showPopup = false
+                isFirstTime = false
             } label: {
                 Text("Enjoy this trip")
                     .foregroundColor(.white)
