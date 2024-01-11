@@ -28,9 +28,9 @@
 		DD7C37D02B505BFA00F2CA4B /* ChaptersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37CF2B505BFA00F2CA4B /* ChaptersRepository.swift */; };
 		DD7C37D22B505C2300F2CA4B /* ChaptersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37D12B505C2300F2CA4B /* ChaptersModel.swift */; };
 		DD7C37D42B50683D00F2CA4B /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = DD7C37D32B50683D00F2CA4B /* NetworkManager */; };
-		DD7C37D82B507F4F00F2CA4B /* BGitaIl-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37D52B507F4F00F2CA4B /* BGitaIl-QA.xcconfig */; };
-		DD7C37D92B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37D62B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig */; };
-		DD7C37DA2B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37D72B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig */; };
+		DD7C37E22B50801200F2CA4B /* BGitaIl-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37E12B50801200F2CA4B /* BGitaIl-Dev.xcconfig */; };
+		DD7C37E42B50802200F2CA4B /* BGitaIl-Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37E32B50802200F2CA4B /* BGitaIl-Prod.xcconfig */; };
+		DD7C37E62B50803A00F2CA4B /* BGitaIl-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37E52B50803A00F2CA4B /* BGitaIl-QA.xcconfig */; };
 		DDE447D62B4E7BCC00CBB699 /* BGitaIlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */; };
 		DDE447DA2B4E7BCD00CBB699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */; };
 		DDE447DD2B4E7BCD00CBB699 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE447DC2B4E7BCD00CBB699 /* Preview Assets.xcassets */; };
@@ -96,9 +96,9 @@
 		DD7C37CD2B505BEB00F2CA4B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DD7C37CF2B505BFA00F2CA4B /* ChaptersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersRepository.swift; sourceTree = "<group>"; };
 		DD7C37D12B505C2300F2CA4B /* ChaptersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersModel.swift; sourceTree = "<group>"; };
-		DD7C37D52B507F4F00F2CA4B /* BGitaIl-QA.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "BGitaIl-QA.xcconfig"; path = "../../../../безіменна папка/BGitaIl-QA.xcconfig"; sourceTree = "<group>"; };
-		DD7C37D62B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "BGitaIl-Dev.xcconfig"; path = "../../../../безіменна папка/BGitaIl-Dev.xcconfig"; sourceTree = "<group>"; };
-		DD7C37D72B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "BGitaIl-Prod.xcconfig"; path = "../../../../безіменна папка/BGitaIl-Prod.xcconfig"; sourceTree = "<group>"; };
+		DD7C37E12B50801200F2CA4B /* BGitaIl-Dev.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "BGitaIl-Dev.xcconfig"; sourceTree = "<group>"; };
+		DD7C37E32B50802200F2CA4B /* BGitaIl-Prod.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "BGitaIl-Prod.xcconfig"; sourceTree = "<group>"; };
+		DD7C37E52B50803A00F2CA4B /* BGitaIl-QA.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "BGitaIl-QA.xcconfig"; sourceTree = "<group>"; };
 		DDE447D22B4E7BCC00CBB699 /* BGitaIl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGitaIl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGitaIlApp.swift; sourceTree = "<group>"; };
 		DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -398,9 +398,9 @@
 		DDE448522B4EAA1B00CBB699 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				DD7C37D62B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig */,
-				DD7C37D72B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig */,
-				DD7C37D52B507F4F00F2CA4B /* BGitaIl-QA.xcconfig */,
+				DD7C37E52B50803A00F2CA4B /* BGitaIl-QA.xcconfig */,
+				DD7C37E32B50802200F2CA4B /* BGitaIl-Prod.xcconfig */,
+				DD7C37E12B50801200F2CA4B /* BGitaIl-Dev.xcconfig */,
 				DDE4485C2B4EACE900CBB699 /* ConfigurationManager.swift */,
 			);
 			path = Configuration;
@@ -594,13 +594,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7C37E42B50802200F2CA4B /* BGitaIl-Prod.xcconfig in Resources */,
 				DDE447DD2B4E7BCD00CBB699 /* Preview Assets.xcassets in Resources */,
 				DDE447DA2B4E7BCD00CBB699 /* Assets.xcassets in Resources */,
-				DD7C37D92B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig in Resources */,
-				DD7C37DA2B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig in Resources */,
 				DDE448402B4E9E2D00CBB699 /* Localizable.xcstrings in Resources */,
-				DD7C37D82B507F4F00F2CA4B /* BGitaIl-QA.xcconfig in Resources */,
+				DD7C37E62B50803A00F2CA4B /* BGitaIl-QA.xcconfig in Resources */,
 				DD7C37592B4EF35100F2CA4B /* Onboarding.json in Resources */,
+				DD7C37E22B50801200F2CA4B /* BGitaIl-Dev.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
