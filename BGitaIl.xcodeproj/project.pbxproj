@@ -28,6 +28,9 @@
 		DD7C37D02B505BFA00F2CA4B /* ChaptersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37CF2B505BFA00F2CA4B /* ChaptersRepository.swift */; };
 		DD7C37D22B505C2300F2CA4B /* ChaptersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37D12B505C2300F2CA4B /* ChaptersModel.swift */; };
 		DD7C37D42B50683D00F2CA4B /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = DD7C37D32B50683D00F2CA4B /* NetworkManager */; };
+		DD7C37D82B507F4F00F2CA4B /* BGitaIl-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37D52B507F4F00F2CA4B /* BGitaIl-QA.xcconfig */; };
+		DD7C37D92B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37D62B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig */; };
+		DD7C37DA2B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DD7C37D72B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig */; };
 		DDE447D62B4E7BCC00CBB699 /* BGitaIlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */; };
 		DDE447DA2B4E7BCD00CBB699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */; };
 		DDE447DD2B4E7BCD00CBB699 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE447DC2B4E7BCD00CBB699 /* Preview Assets.xcassets */; };
@@ -43,9 +46,6 @@
 		DDE4483B2B4E9A0A00CBB699 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = DDE4483A2B4E9A0A00CBB699 /* Swinject */; };
 		DDE4483D2B4E9A0A00CBB699 /* Swinject-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = DDE4483C2B4E9A0A00CBB699 /* Swinject-Dynamic */; };
 		DDE448402B4E9E2D00CBB699 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = DDE4483F2B4E9E2D00CBB699 /* Localizable.xcstrings */; };
-		DDE448562B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */; };
-		DDE448582B4EAABB00CBB699 /* BGitaIl-QA.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */; };
-		DDE4485A2B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */; };
 		DDE4485D2B4EACE900CBB699 /* ConfigurationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE4485C2B4EACE900CBB699 /* ConfigurationManager.swift */; };
 		DDE448602B4EB2DA00CBB699 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DDE4485F2B4EB2DA00CBB699 /* FirebaseAnalytics */; };
 		DDE448622B4EB2DA00CBB699 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = DDE448612B4EB2DA00CBB699 /* FirebaseCrashlytics */; };
@@ -96,6 +96,9 @@
 		DD7C37CD2B505BEB00F2CA4B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DD7C37CF2B505BFA00F2CA4B /* ChaptersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersRepository.swift; sourceTree = "<group>"; };
 		DD7C37D12B505C2300F2CA4B /* ChaptersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersModel.swift; sourceTree = "<group>"; };
+		DD7C37D52B507F4F00F2CA4B /* BGitaIl-QA.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "BGitaIl-QA.xcconfig"; path = "../../../../безіменна папка/BGitaIl-QA.xcconfig"; sourceTree = "<group>"; };
+		DD7C37D62B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "BGitaIl-Dev.xcconfig"; path = "../../../../безіменна папка/BGitaIl-Dev.xcconfig"; sourceTree = "<group>"; };
+		DD7C37D72B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = "BGitaIl-Prod.xcconfig"; path = "../../../../безіменна папка/BGitaIl-Prod.xcconfig"; sourceTree = "<group>"; };
 		DDE447D22B4E7BCC00CBB699 /* BGitaIl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGitaIl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGitaIlApp.swift; sourceTree = "<group>"; };
 		DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -110,9 +113,6 @@
 		DDE4482A2B4E8ADF00CBB699 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		DDE448312B4E988600CBB699 /* CommonInjections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonInjections.swift; sourceTree = "<group>"; };
 		DDE4483F2B4E9E2D00CBB699 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
-		DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BGitaIl-Dev.xcconfig"; sourceTree = "<group>"; };
-		DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BGitaIl-QA.xcconfig"; sourceTree = "<group>"; };
-		DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "BGitaIl-Prod.xcconfig"; sourceTree = "<group>"; };
 		DDE4485B2B4EAC9000CBB699 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		DDE4485C2B4EACE900CBB699 /* ConfigurationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationManager.swift; sourceTree = "<group>"; };
 		DDE4487D2B4EB50200CBB699 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -398,9 +398,9 @@
 		DDE448522B4EAA1B00CBB699 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
-				DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */,
-				DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */,
-				DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */,
+				DD7C37D62B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig */,
+				DD7C37D72B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig */,
+				DD7C37D52B507F4F00F2CA4B /* BGitaIl-QA.xcconfig */,
 				DDE4485C2B4EACE900CBB699 /* ConfigurationManager.swift */,
 			);
 			path = Configuration;
@@ -594,12 +594,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDE4485A2B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig in Resources */,
 				DDE447DD2B4E7BCD00CBB699 /* Preview Assets.xcassets in Resources */,
 				DDE447DA2B4E7BCD00CBB699 /* Assets.xcassets in Resources */,
-				DDE448582B4EAABB00CBB699 /* BGitaIl-QA.xcconfig in Resources */,
+				DD7C37D92B507F4F00F2CA4B /* BGitaIl-Dev.xcconfig in Resources */,
+				DD7C37DA2B507F4F00F2CA4B /* BGitaIl-Prod.xcconfig in Resources */,
 				DDE448402B4E9E2D00CBB699 /* Localizable.xcstrings in Resources */,
-				DDE448562B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig in Resources */,
+				DD7C37D82B507F4F00F2CA4B /* BGitaIl-QA.xcconfig in Resources */,
 				DD7C37592B4EF35100F2CA4B /* Onboarding.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -871,7 +871,6 @@
 		};
 		DDE447FC2B4E7BCD00CBB699 /* Debug-Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -906,7 +905,6 @@
 		};
 		DDE447FD2B4E7BCD00CBB699 /* Release-Dev */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE448552B4EAA9F00CBB699 /* BGitaIl-Dev.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1080,7 +1078,6 @@
 		};
 		DDE448432B4EA5C100CBB699 /* Debug-QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1216,7 +1213,6 @@
 		};
 		DDE448472B4EA5D800CBB699 /* Debug-Prod */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1345,7 +1341,6 @@
 		};
 		DDE4484B2B4EA5FC00CBB699 /* Release-Prod */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE448592B4EAAD300CBB699 /* BGitaIl-Prod.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1474,7 +1469,6 @@
 		};
 		DDE4484F2B4EA60400CBB699 /* Release-QA */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DDE448572B4EAABB00CBB699 /* BGitaIl-QA.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
