@@ -109,6 +109,15 @@
       }
     },
     {
+      "identity" : "network-manager-swift-pcg",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/antila3567/Network-Manager-Swift-Pcg",
+      "state" : {
+        "branch" : "main",
+        "revision" : "76c629469287cd57f47f762982bcbe459fb20e52"
+      }
+    },
+    {
       "identity" : "promises",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/promises.git",

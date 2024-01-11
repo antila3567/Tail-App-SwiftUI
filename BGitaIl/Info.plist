@@ -9,5 +9,9 @@
 	</dict>
 	<key>BASE_URL</key>
 	<string>$(BASE_URL)</string>
+	<key>X_RapidAPI_Key</key>
+	<string>$(X_RapidAPI_Key)</string>
+	<key>X_RapidAPI_Host</key>
+	<string>$(X_RapidAPI_Host)</string>
 </dict>
 </plist>

@@ -19,7 +19,15 @@
 		DD7C37732B4F29A800F2CA4B /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37722B4F29A800F2CA4B /* SavedView.swift */; };
 		DD7C37752B4F29AF00F2CA4B /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37742B4F29AF00F2CA4B /* AboutView.swift */; };
 		DD7C37772B4F29B700F2CA4B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37762B4F29B700F2CA4B /* HomeView.swift */; };
-		DD7C37792B4F333800F2CA4B /* HomeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37782B4F333800F2CA4B /* HomeDetails.swift */; };
+		DD7C377B2B4FE2AB00F2CA4B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C377A2B4FE2AB00F2CA4B /* Colors.swift */; };
+		DD7C377E2B4FEE9300F2CA4B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C377D2B4FEE9300F2CA4B /* SettingsView.swift */; };
+		DD7C37C32B50383600F2CA4B /* AppNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37C22B50383600F2CA4B /* AppNetworkManager.swift */; };
+		DD7C37C82B50591600F2CA4B /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37C72B50591600F2CA4B /* Endpoints.swift */; };
+		DD7C37CA2B505A9B00F2CA4B /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37C92B505A9B00F2CA4B /* Headers.swift */; };
+		DD7C37CE2B505BEB00F2CA4B /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37CD2B505BEB00F2CA4B /* HomeViewModel.swift */; };
+		DD7C37D02B505BFA00F2CA4B /* ChaptersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37CF2B505BFA00F2CA4B /* ChaptersRepository.swift */; };
+		DD7C37D22B505C2300F2CA4B /* ChaptersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7C37D12B505C2300F2CA4B /* ChaptersModel.swift */; };
+		DD7C37D42B50683D00F2CA4B /* NetworkManager in Frameworks */ = {isa = PBXBuildFile; productRef = DD7C37D32B50683D00F2CA4B /* NetworkManager */; };
 		DDE447D62B4E7BCC00CBB699 /* BGitaIlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */; };
 		DDE447DA2B4E7BCD00CBB699 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */; };
 		DDE447DD2B4E7BCD00CBB699 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDE447DC2B4E7BCD00CBB699 /* Preview Assets.xcassets */; };
@@ -80,7 +88,14 @@
 		DD7C37722B4F29A800F2CA4B /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
 		DD7C37742B4F29AF00F2CA4B /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		DD7C37762B4F29B700F2CA4B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		DD7C37782B4F333800F2CA4B /* HomeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetails.swift; sourceTree = "<group>"; };
+		DD7C377A2B4FE2AB00F2CA4B /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DD7C377D2B4FEE9300F2CA4B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DD7C37C22B50383600F2CA4B /* AppNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNetworkManager.swift; sourceTree = "<group>"; };
+		DD7C37C72B50591600F2CA4B /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		DD7C37C92B505A9B00F2CA4B /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		DD7C37CD2B505BEB00F2CA4B /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DD7C37CF2B505BFA00F2CA4B /* ChaptersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersRepository.swift; sourceTree = "<group>"; };
+		DD7C37D12B505C2300F2CA4B /* ChaptersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaptersModel.swift; sourceTree = "<group>"; };
 		DDE447D22B4E7BCC00CBB699 /* BGitaIl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BGitaIl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE447D52B4E7BCC00CBB699 /* BGitaIlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGitaIlApp.swift; sourceTree = "<group>"; };
 		DDE447D92B4E7BCD00CBB699 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -123,6 +138,7 @@
 				DDE448622B4EB2DA00CBB699 /* FirebaseCrashlytics in Frameworks */,
 				DDE448602B4EB2DA00CBB699 /* FirebaseAnalytics in Frameworks */,
 				DDE4483B2B4E9A0A00CBB699 /* Swinject in Frameworks */,
+				DD7C37D42B50683D00F2CA4B /* NetworkManager in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +192,7 @@
 				DD7C37582B4EF35100F2CA4B /* Onboarding.json */,
 				DD1F2ED02B4EEE1B00DADCBF /* LocalJsonLoader.swift */,
 				DD7C37642B4F18AE00F2CA4B /* LanguageManager.swift */,
+				DD7C377A2B4FE2AB00F2CA4B /* Colors.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -201,6 +218,7 @@
 		DD7C37682B4F293F00F2CA4B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				DD7C377C2B4FEE8100F2CA4B /* Settings */,
 				DD7C376D2B4F297200F2CA4B /* BGTabs */,
 				DD7C376C2B4F296B00F2CA4B /* Quotes */,
 				DD7C376B2B4F296400F2CA4B /* Saved */,
@@ -213,8 +231,9 @@
 		DD7C37692B4F294800F2CA4B /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				DD7C37CC2B505BCE00F2CA4B /* ViewModel */,
+				DD7C37CB2B505BC800F2CA4B /* Model */,
 				DD7C37762B4F29B700F2CA4B /* HomeView.swift */,
-				DD7C37782B4F333800F2CA4B /* HomeDetails.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -251,6 +270,48 @@
 			path = BGTabs;
 			sourceTree = "<group>";
 		};
+		DD7C377C2B4FEE8100F2CA4B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C377D2B4FEE9300F2CA4B /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		DD7C37BB2B4FF81100F2CA4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD7C37C12B50381E00F2CA4B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C37C22B50383600F2CA4B /* AppNetworkManager.swift */,
+				DD7C37C72B50591600F2CA4B /* Endpoints.swift */,
+				DD7C37C92B505A9B00F2CA4B /* Headers.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		DD7C37CB2B505BC800F2CA4B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C37CF2B505BFA00F2CA4B /* ChaptersRepository.swift */,
+				DD7C37D12B505C2300F2CA4B /* ChaptersModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD7C37CC2B505BCE00F2CA4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD7C37CD2B505BEB00F2CA4B /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		DDE447C92B4E7BCC00CBB699 = {
 			isa = PBXGroup;
 			children = (
@@ -258,6 +319,7 @@
 				DDE447EA2B4E7BCD00CBB699 /* BGitaIlTests */,
 				DDE447F42B4E7BCD00CBB699 /* BGitaIlUITests */,
 				DDE447D32B4E7BCC00CBB699 /* Products */,
+				DD7C37BB2B4FF81100F2CA4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				DDE4485B2B4EAC9000CBB699 /* Info.plist */,
+				DD7C37C12B50381E00F2CA4B /* Network */,
 				DD1F2ECD2B4EEA6200DADCBF /* Utils */,
 				DDE447DB2B4E7BCD00CBB699 /* Preview Content */,
 				DDE448A12B4EE16600CBB699 /* Resources */,
@@ -433,6 +496,7 @@
 				DDE4483C2B4E9A0A00CBB699 /* Swinject-Dynamic */,
 				DDE4485F2B4EB2DA00CBB699 /* FirebaseAnalytics */,
 				DDE448612B4EB2DA00CBB699 /* FirebaseCrashlytics */,
+				DD7C37D32B50683D00F2CA4B /* NetworkManager */,
 			);
 			productName = BGitaIl;
 			productReference = DDE447D22B4E7BCC00CBB699 /* BGitaIl.app */;
@@ -512,6 +576,7 @@
 				DDE448272B4E8A2F00CBB699 /* XCRemoteSwiftPackageReference "SwiftyBeaver" */,
 				DDE448392B4E9A0A00CBB699 /* XCRemoteSwiftPackageReference "Swinject" */,
 				DDE4485E2B4EB2DA00CBB699 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				DD7C37C42B503A5200F2CA4B /* XCRemoteSwiftPackageReference "Network-Manager-Swift-Pcg" */,
 			);
 			productRefGroup = DDE447D32B4E7BCC00CBB699 /* Products */;
 			projectDirPath = "";
@@ -576,7 +641,7 @@
 		};
 		DDE448412B4EA1D500CBB699 /* SwiftFormat */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputFileListPaths = (
@@ -588,7 +653,7 @@
 			);
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftformat > /dev/null; then\n  swiftformat .\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
 		};
@@ -617,8 +682,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7C37D02B505BFA00F2CA4B /* ChaptersRepository.swift in Sources */,
+				DD7C37C82B50591600F2CA4B /* Endpoints.swift in Sources */,
 				DD7C376F2B4F299800F2CA4B /* BGTabView.swift in Sources */,
-				DD7C37792B4F333800F2CA4B /* HomeDetails.swift in Sources */,
+				DD7C37D22B505C2300F2CA4B /* ChaptersModel.swift in Sources */,
 				DDE4485D2B4EACE900CBB699 /* ConfigurationManager.swift in Sources */,
 				DDE448322B4E988600CBB699 /* CommonInjections.swift in Sources */,
 				DDE4482B2B4E8ADF00CBB699 /* Logger.swift in Sources */,
@@ -630,15 +697,20 @@
 				DD7C37712B4F29A100F2CA4B /* QuotesView.swift in Sources */,
 				DDE4489F2B4EDED000CBB699 /* AnalyticsEvents.swift in Sources */,
 				DDE447DF2B4E7BCD00CBB699 /* Persistence.swift in Sources */,
+				DD7C37CE2B505BEB00F2CA4B /* HomeViewModel.swift in Sources */,
 				DDE448A32B4EE7F300CBB699 /* OnboardingView.swift in Sources */,
+				DD7C377B2B4FE2AB00F2CA4B /* Colors.swift in Sources */,
 				DD7C37772B4F29B700F2CA4B /* HomeView.swift in Sources */,
 				DDE448AD2B4EE88800CBB699 /* OnboardingModel.swift in Sources */,
 				DD1F2ED12B4EEE1B00DADCBF /* LocalJsonLoader.swift in Sources */,
 				DD7C37632B4F127900F2CA4B /* RadioButtonView.swift in Sources */,
+				DD7C37CA2B505A9B00F2CA4B /* Headers.swift in Sources */,
 				DD7C37652B4F18AE00F2CA4B /* LanguageManager.swift in Sources */,
 				DD7C37752B4F29AF00F2CA4B /* AboutView.swift in Sources */,
+				DD7C377E2B4FEE9300F2CA4B /* SettingsView.swift in Sources */,
 				DDE4489C2B4ECF9300CBB699 /* AnalyticsManager.swift in Sources */,
 				DD7C375F2B4F007200F2CA4B /* OnboardingContentView.swift in Sources */,
+				DD7C37C32B50383600F2CA4B /* AppNetworkManager.swift in Sources */,
 				DDE447D62B4E7BCC00CBB699 /* BGitaIlApp.swift in Sources */,
 				DD7C375B2B4EF4C900F2CA4B /* PageControl.swift in Sources */,
 				DDE4489A2B4ECDDB00CBB699 /* FirebaseAnalyticsManager.swift in Sources */,
@@ -817,7 +889,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -852,7 +924,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1026,7 +1098,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1162,7 +1234,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1291,7 +1363,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1420,7 +1492,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1531,6 +1603,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		DD7C37C42B503A5200F2CA4B /* XCRemoteSwiftPackageReference "Network-Manager-Swift-Pcg" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/antila3567/Network-Manager-Swift-Pcg";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		DDE448152B4E814F00CBB699 /* XCRemoteSwiftPackageReference "BGUtility" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/antila3567/BGUtility";
@@ -1566,6 +1646,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		DD7C37D32B50683D00F2CA4B /* NetworkManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD7C37C42B503A5200F2CA4B /* XCRemoteSwiftPackageReference "Network-Manager-Swift-Pcg" */;
+			productName = NetworkManager;
+		};
 		DDE448162B4E814F00CBB699 /* BGUtility */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = DDE448152B4E814F00CBB699 /* XCRemoteSwiftPackageReference "BGUtility" */;

@@ -43,6 +43,7 @@ struct BGTabView: View {
                     Text("About")
                 }
         }
+        .accentColor(Color.customColor.primaryOrange)
         .environmentObject(appState)
     }
 
@@ -58,12 +59,6 @@ struct BGTabView: View {
                                 appState.homeNavigation = []
                             }
                         }
-                    case .about:
-                        if !appState.aboutNavigation.isEmpty {
-                            withAnimation {
-                                appState.aboutNavigation = []
-                            }
-                        }
                     case .saved:
                         if !appState.savedNavigation.isEmpty {
                             withAnimation {
@@ -76,6 +71,8 @@ struct BGTabView: View {
                                 appState.quotesNavigation = []
                             }
                         }
+                    case .about:
+                        break
                     }
                 }
                 appState.selectedTab = selectedTab
@@ -91,7 +88,6 @@ struct BGTabView: View {
 class AppState: ObservableObject {
     @Published var selectedTab: BGViewTab = .home
     @Published var homeNavigation: [HomeNavDest] = []
-    @Published var aboutNavigation: [AboutNavDest] = []
     @Published var savedNavigation: [SavedNavDest] = []
     @Published var quotesNavigation: [QuotesNavDest] = []
 }
@@ -104,11 +100,7 @@ enum BGViewTab {
 }
 
 enum HomeNavDest {
-    case details
-}
-
-enum AboutNavDest {
-    case details1
+    case settings
 }
 
 enum SavedNavDest {

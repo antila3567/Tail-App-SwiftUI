@@ -47,7 +47,7 @@ class Logger: LoggerType {
     }()
 
     func verbose(_ message: String, _ file: String = #file, function: String = #function, line: Int = #line) {
-        log.debug(message, file: file, function: function, line: line)
+        log.verbose(message, file: file, function: function, line: line)
     }
 
     func debug(_ message: String, _ file: String = #file, function: String = #function, line: Int = #line) {
@@ -55,14 +55,14 @@ class Logger: LoggerType {
     }
 
     func info(_ message: String, _ file: String = #file, function: String = #function, line: Int = #line) {
-        log.debug(message, file: file, function: function, line: line)
+        log.info(message, file: file, function: function, line: line)
     }
 
     func warning(_ message: String, _ file: String = #file, function: String = #function, line: Int = #line) {
-        log.debug(message, file: file, function: function, line: line)
+        log.warning(message, file: file, function: function, line: line)
     }
 
     func error(_ message: String, _ file: String = #file, function: String = #function, line: Int = #line) {
-        log.debug(message, file: file, function: function, line: line)
+        log.error(message, file: file, function: function, line: line)
     }
 }

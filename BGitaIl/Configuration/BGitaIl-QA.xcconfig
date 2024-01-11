@@ -8,4 +8,6 @@
 // Configuration settings file format documentation can be found at:
 // https://help.apple.com/xcode/#/dev745c5c974
 
-BASE_URL = bhagavad-gita3.p.rapidapi.com/qa
+BASE_URL = bhagavad-gita3.p.rapidapi.com
+X_RapidAPI_Key = 090b7dad8emshb7a3e192e2d7389p1b416cjsnacd51c742d95
+X_RapidAPI_Host = bhagavad-gita3.p.rapidapi.com

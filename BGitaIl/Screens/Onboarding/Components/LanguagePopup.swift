@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-enum SupportedLanguage: String {
-    case english
-    case ukrainian
+enum SupportedLanguage: String, CaseIterable {
+    case english = "English"
+    case ukrainian = "Ukrainian"
 }
 
 struct LanguagePopup: View {

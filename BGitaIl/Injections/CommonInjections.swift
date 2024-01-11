@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import NetworkManager
 import Swinject
 
 final class LoggerInjection {
@@ -32,6 +33,11 @@ final class LoggerInjection {
         container.register(AnalyticsManagerProtocol.self) { _ in
             AnalyticsManager(logger: FirebaseAnalyticsManager())
         }
+
+        container.register(AppNetworkManagerProtocol.self) { _ in
+            AppNetworkManager(network: NM())
+        }
+
         return container
     }
 }
@@ -40,6 +46,9 @@ final class LoggerInjection {
     var wrappedValue: Dependency
 
     init() {
-        wrappedValue = LoggerInjection.shared.container.resolve(Dependency.self)!
+        guard let resolvedDependency = LoggerInjection.shared.container.resolve(Dependency.self) else {
+            fatalError("Залежність \(Dependency.self) не зареєстрована.")
+        }
+        wrappedValue = resolvedDependency
     }
 }
